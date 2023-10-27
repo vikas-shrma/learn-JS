@@ -24,3 +24,5 @@ console.log(` Checking ${typeof newArray}`);
 console.log(typeof Array.of(d1,d2,d3));
 
 console.log(Object.values( Array.of(d1,d2,d3)));
+
+//
