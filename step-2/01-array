@@ -1,0 +1,26 @@
+const array1 = [1,43,62,5,7,9,8,7,54,3]
+
+// shift will remove starting values : i.e starts from 0
+ //array1.shift()
+
+ //array1.pop()
+//  array1.unshift(8)
+//  array1.unshift(8)
+
+console.log(array1.slice(3,5))
+console.log(array1)
+
+// try to use flat or flat map
+
+const newArray = [1,2,3,5,[4,6,2,3,4,[3,0,86,5,5,]]]
+
+// console.log(newArray.flatMap({}))
+
+var d1 = "Vikas"
+var d2 = "Sharma"
+var d3 = "Mathana"
+
+console.log(` Checking ${typeof newArray}`);
+console.log(typeof Array.of(d1,d2,d3));
+
+console.log(Object.values( Array.of(d1,d2,d3)));
