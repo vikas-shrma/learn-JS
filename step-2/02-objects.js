@@ -15,4 +15,25 @@ email:"vikas@gmail.com"
 }
 
 
-console.table([   object2,object2.id,object2["email"],typeof idSymbol]);
+//console.table([   object2,object2.id,object2["email"],typeof idSymbol]);
+
+
+// destructuring of object in JS
+// means you can direclty get value from object so every time dont use
+
+const dataObject = {name:"Vikas Sharma",age :30,email:"vikas.sharma@statusneo.com"}
+
+
+
+function data() {
+    var {name,email,age} = dataObject
+
+var alpha  = "yahoo"
+
+   // console.log(`The Destructuring objects is Name-> ${name} Age-> ${age} Email-> ${email}`)
+}
+
+console.log(alpha)
+// console.log(`The Destructuring objects is 22 Name-> ${name} Age-> ${age} Email-> ${email}`)
+
+
